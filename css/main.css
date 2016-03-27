@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Big Noodle Titling';
+    src: url('../fonts/big_noodle_titling.ttf');
+}
+
+@font-face {
+    font-family: 'Big Noodle Titling Oblique';
+    src: url('../fonts/big_noodle_titling_oblique.ttf');
+}
+
+@font-face {
+    font-family: 'Gurmukhi';
+    src: url('../fonts/Gurmukhi.ttf');
+}
+
+@font-face {
+    font-family: 'Gurmukhi MN';
+    src: url('../fonts/Gurmukhi_MN.ttc');
+}
+
+@font-face {
+    font-family: 'Gurmukhi Sangam MN';
+    src: url('../fonts/Gurmukhi_Sangam_MN.ttc');
+}
+
+body {
+	background: #6b6460 url(../img/background.jpg) no-repeat center center;
+	font-family: 'Gurmukhi Sangam MN', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.navbar-header {
+	height: 200px;
+}
+
+.navbar-brand {
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+#nav-menu .nav a {
+	background-color: #5e5e5e;
+	color: white;
+	font-size: 22px;
+	font-family: 'Big Noodle Titling', sans-serif;
+}
+
+#nav-menu .nav a:hover {
+	background: #ff8d00;
+}
+
+#nav-menu .nav li.active a {
+	background: #ff8d00;
+}
+
+#nav-menu ul.nav.border-top-color {
+	background: #ff8d00;
+	border-top: 3px solid #ff8d00;
+}
+
+
+/** Google map **/
+#map-canvas {
+	width: 100%;
+    height: 100%;
+ 	height: calc(100% - 0px);
+ 	min-height: 300px;
+ 	margin-bottom: 20px;
+}
+
+/** header **/
+h1.red-color {
+	font-family: 'Big Noodle Titling', sans-serif;
+	color: #b11f24;
+}
+
+/** box **/
+#content-wrapper div.thumbnail {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+/** button **/
+#content-wrapper div.thumbnail a.btn {
+	border-radius: 0;
+	margin-top: 10px;
+	background-color: #f47d05;
+	color: white;
+}
+
+#content-wrapper div.thumbnail img {
+	width: 100%;
+}
+
+button.contact-submmit {
+	background-color: #b11f24;
+	width: 110px;
+}
+
+/** label **/
+div.our-contact label {
+	font-weight: normal;
+	font-family: 'Gurmukhi Sangam MN', sans-serif;
+}
+
+/** Input **/
+input#verify-code {
+	height: 22px;
+}
+
+span.verify-code-text {
+	font-family: 'Century', sans-serif;
+}
+
+/** Group **/
+div.verify-group label {
+	padding-top: 0 !important;
+}
+
+/** Background **/
+.white-transparent-bg,
+.footage-bg,
+.footer-bg {
+	padding: 30px;
+}
+
+.white-transparent-bg {
+	background-color: rgba(255,255,255, 0.75);
+	color: inherit;
+	margin-top: 20px;
+}
+
+.footage-bg {
+	background-color: #5e5e5e;
+	border-top: 3px solid #ff8d00;
+}
+
+header.top-menu-header {
+	margin-top: 25px;
+}
+
+.navbar-toggle .icon-bar,
+.navbar-toggle .sr-only {
+    background-color: #f8b133;
+}
+
+.navbar-toggle .glyphicon-search,
+.navbar-toggle .glyphicon-user {
+    color: #f8b133;
+}
+
+/** color **/
+.footage-bg,
+.footage-bg a,
+.wellcome-user {
+	color: #ffffff;
+}
+
+.wellcome-user a {
+	color: #f8b133 !important;
+}
+
+/** Adjust **/
+.nopadding {
+	padding: 0;
+}
+
+.footage-bg a.social-icon {
+	margin-left: 5px;
+}
+
+.pipe-separate {
+	margin: 0 5px;
+}
+
+#search-box input {
+	width: 130px;
+	height: 20px;
+	font-family: 'Gurmukhi_Sangam_MN', sans-serif;
+	font-size: 12px;
+}
+
+#search-box form span {
+	height: 20px;
+	line-height: 20px;
+}
+
+#search-box div.has-feedback {
+	width: 130px;
+}
+
+.footage-bg span,
+.footage-bg p {
+	font-family: 'Gurmukhi_Sangam_MN', sans-serif;
+	font-size: 13px;
+}
+
+#carousel-example-generic {
+	box-shadow: 0px 5px 10px #4c443d;
+	border: 2px solid #ffffff;
+}
