@@ -89,6 +89,18 @@ h1.black-color {
 	color: #aaaaa;
 }
 
+h1.product-detail {
+	text-align: left;
+	color: #6d6c6b;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #a11519;
+	margin-top: 105px;
+	margin-bottom: 15px;
+	font-family: 'Gurmukhi_Sangam_MN', sans-serif;
+	font-size: 43px;
+}
+
 /** box **/
 #content-wrapper div.thumbnail {
 	background-color: transparent;
@@ -216,6 +228,10 @@ header.top-menu-header {
 	border: 2px solid #ffffff;
 }
 
+.margin-bottom-15 {
+	margin-bottom: 15px !important;
+}
+
 .margin-bottom-50 {
 	margin-bottom: 50px !important;
 }
@@ -224,8 +240,16 @@ header.top-menu-header {
 	margin-top: 60px !important;
 }
 
+.margin-top-105 {
+	margin-top: 105px !important;
+}
+
 .padding-bottom-20 {
 	padding-bottom: 20px !important;
+}
+
+.padding-left-10 {
+	padding-left: 10px !important;
 }
 
 /** left sider bar **/
@@ -401,3 +425,61 @@ ul.pagination {
 	color: #000000;
 }
 
+/** pgwSlideshow custom **/
+#owl-demo {
+	margin-top: 10px;
+}
+
+#owl-demo .glyphicon {
+	font-size: 2em;
+}
+
+#owl-demo .item{
+	background: #42bdc2;
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#owl-demo div.owl-wrapper-outer {
+	width: 90%;
+	margin: auto;
+}
+
+#owl-demo div.owl-prev,
+#owl-demo div.owl-next {
+	position: absolute;
+	top: 40%;
+	color: #393939;
+	margin: 0;
+	padding: 0;
+}
+
+#owl-demo div.owl-prev {
+	left: 0px;
+}
+
+#owl-demo div.owl-next {
+	right: 0px;
+}
+
+#owl-demo .item {
+	width: auto;
+	background: transparent;
+	padding: 0;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	background: transparent;
+}
