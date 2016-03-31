@@ -24,7 +24,7 @@
 }
 
 body {
-	background: #6b6460 url(../img/background.jpg) no-repeat center center;
+	background: #6b6460 url(../img/background.jpg) no-repeat top center;
 	font-family: 'Gurmukhi Sangam MN', sans-serif;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -101,6 +101,13 @@ h1.product-detail {
 	font-size: 43px;
 }
 
+h3.product-detail-title {
+	font-family: 'Gurmukhi_Sangam_MN', sans-serif;
+	font-size: 30px;
+	color: #464646;
+	margin-bottom: 25px;
+}
+
 /** box **/
 #content-wrapper div.thumbnail {
 	background-color: transparent;
@@ -138,6 +145,7 @@ input#verify-code {
 
 span.verify-code-text {
 	font-family: 'Century', sans-serif;
+	color: #ff0000;
 }
 
 /** Group **/
@@ -244,12 +252,24 @@ header.top-menu-header {
 	margin-top: 105px !important;
 }
 
+.margin-left-30 {
+	margin-left: 30px !important;
+}
+
 .padding-bottom-20 {
 	padding-bottom: 20px !important;
 }
 
 .padding-left-10 {
 	padding-left: 10px !important;
+}
+
+.padding-left-35 {
+	padding-left: 30px !important;
+}
+
+.padding-20 {
+	padding: 20px !important;
 }
 
 /** left sider bar **/
@@ -482,4 +502,122 @@ ul.pagination {
 
 .owl-theme .owl-controls .owl-buttons div {
 	background: transparent;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-15 {
+	font-size: 16px;
+}
+
+.input-quantity {
+	width: 30px;
+	text-align: center;
+}
+
+.add-item {
+	color: #ffffff;
+	background-color: #b11f24;
+	margin-left: 10px;
+}
+
+.add-item:hover,
+.add-item:focus {
+	color: #ffffff;
+}
+
+.alert-add-item div.modal-content {
+	text-align: center;
+	background-color: #e1e1e1;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.alert-add-item div.modal-dialog {
+	margin-top: 20%;
+	width: auto;
+	max-width: 30%;
+}
+
+/** product detail tab **/
+.product-detail-specification {
+	position: relative;
+	padding-top: 20px;
+	margin-top: 50px;
+}
+
+.product-detail-specification ul.nav-tabs {
+	position: absolute;
+	top: 0;
+	left: 3px;
+}
+
+.product-detail-specification ul.nav-tabs li {
+	background-color: #363636;
+	margin-right: 10px;
+}
+
+.product-detail-specification ul.nav-tabs li.active {
+	background-color: #b11f24;
+}
+
+.product-detail-specification ul.nav-tabs a {
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	border: none;
+	text-align: center;
+}
+
+.product-detail-specification ul.nav-tabs a:hover,
+.product-detail-specification ul.nav-tabs a:focus {
+	background-color: inherit;
+	color: #ffffff;
+	border: none;
+}
+
+.product-detail-specification ul.nav-tabs a {
+	width: 200px;
+	height: 40px;
+	background-color: transparent;
+}
+
+.product-detail-specification .tab-content {
+	background-color: #e2e2e2;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 16px;
+	color: #000000;
+}
+
+.product-detail-specification p.title {
+	color: #790000;
+	font-weight: 500;
+}
+
+/** rating **/
+.rating-container {
+	float: left;
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+.datetime-comment {
+	font-size: 13px;
+}
+
+.seperate-comment {
+	border-top: 2px solid #d5baba;
+	margin: 20px 0;
+}
+
+.seperate-input-comment {
+	border-top: 3px solid #a11519;
+	margin: 20px 0;
 }
