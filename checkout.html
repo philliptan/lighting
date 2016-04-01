@@ -105,78 +105,103 @@
 	<section id="content-wrapper">
 		<div class="container">
 			<div class="white-transparent-bg">
+				<p class="font-size-16 margin-bottom-30">3T Lighting will reserve your order items <strong class="font-size-20"> within 5 workings days</strong>. <br>
+Kindly visit our shop at Blk 633 Veerasamy Road, #01-122, Singapore 200633 to make your payment and collect your items. <br>
+Thank you for your support.</p>
 				<form class="form-horizontal">
-					<div class="panel-personal-info margin-bottom-45">
-						<div class="panel-heading panel-heading-black">Manage Your Personal Info</div>
-						<div class="panel-body panel-body-bg">
-							<div class="col-sm-5">
-								<div class="form-group">
-									<label for="inputFullName" class="col-sm-2 control-label">Name*:</label>
-									<div class="col-sm-10">
-										<input type="text" class="form-control" id="inputFullName" placeholder="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputEmail" class="col-sm-2 control-label">Email*:</label>
-									<div class="col-sm-10">
-										<input type="email" class="form-control" id="inputEmail" placeholder="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputAddress" class="col-sm-2 control-label">Address*:</label>
-									<div class="col-sm-10">
-										<textarea class="form-control" rows="3" id="inputAddress"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-2"></div>
-							<div class="col-sm-5">
-								<div class="form-group">
-									<label for="inputUserName" class="col-sm-2 control-label">Username*:</label>
-									<div class="col-sm-10">
-										<input type="text" class="form-control" id="inputUserName" placeholder="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputPhone" class="col-sm-2 control-label">Phone*:</label>
-									<div class="col-sm-10">
-										<input type="email" class="form-control" id="inputPhone" placeholder="">
-									</div>
-								</div>
-							</div>
-							
+					<div class="panel-personal-info margin-bottom-35">
+						<div class="panel-heading panel-heading-black">Your Lists</div>
+						<div class="panel-body panel-body-bg panel-body-bg-checkout">
+							<table class="table checkout">
+								<tr>
+									<th class="th-remove"></th>
+									<th class="th-item">Items</th>
+									<th class="th-qty">Qty.</th>
+									<th class="th-unit-price">Unit Price (SGD)</th>
+									<th class="th-amount">Amount (SGD)</th>
+								</tr>
+								<tr>
+									<td>
+										<button class="btn btn-checkout-remove" type="submit">REMOVE</button>
+									</td>
+									<td class="item">Saponetta Ceiling Light</td>
+									<td class="item"><input type="text" value="1" class="qty"></td>
+									<td class="item unit-price">$ 49.80</td>
+									<td class="item amount">$ 49.80</td>
+								</tr>
+								<tr>
+									<td>
+										<button class="btn btn-checkout-remove" type="submit">REMOVE</button>
+									</td>
+									<td class="item">Saponetta Ceiling Light</td>
+									<td class="item"><input type="text" value="1" class="qty"></td>
+									<td class="item unit-price">$ 49.80</td>
+									<td class="item amount">$ 49.80</td>
+								</tr>
+								<tr>
+									<td>
+										<button class="btn btn-checkout-remove" type="submit">REMOVE</button>
+									</td>
+									<td class="item">Saponetta Ceiling Light</td>
+									<td class="item"><input type="text" value="1" class="qty"></td>
+									<td class="item unit-price">$ 49.80</td>
+									<td class="item amount">$ 49.80</td>
+								</tr>
+								<tr>
+									<td colspan="5" class="text-right">
+										Total: <strong class="total-amount"><sup>$</sup>293.00</strong>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="5" class="total-amount-seperate">
+									</td>
+								</tr>
+							</table>
 						</div>
 					</div>
-
-					<div class="panel-change-password margin-bottom-45">
-						<div class="panel-heading panel-heading-black">Change Your Password</div>
-						<div class="panel-body panel-body-bg">
-							<div class="col-sm-3"></div>
-							<div class="col-sm-6">
-								<div class="form-group">
-									<label for="inputCurentPassword" class="col-sm-3 control-label">Current Password:</label>
-									<div class="col-sm-9">
-										<input type="text" class="form-control" id="inputCurentPassword" placeholder="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputNewPassword" class="col-sm-3 control-label">New Password:</label>
-									<div class="col-sm-9">
-										<input type="email" class="form-control" id="inputNewPassword" placeholder="">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="inputConfirmPassword" class="col-sm-3 control-label">Confirm Password:</label>
-									<div class="col-sm-9">
-										<input type="email" class="form-control" id="inputConfirmPassword" placeholder="">
-									</div>
+					<div class="row margin-bottom-35">
+						<div class="col-sm-5">
+							<div class="form-group">
+								<label for="inputFullName" class="col-sm-4 control-label">Full Name*:</label>
+								<div class="col-sm-8">
+									<input type="text" class="form-control" id="inputFullName" placeholder="">
 								</div>
 							</div>
-							<div class="col-sm-3"></div>
+							<div class="form-group">
+								<label for="inputConcactNumber" class="col-sm-4 control-label">Contact Number:</label>
+								<div class="col-sm-8">
+									<input type="text" class="form-control" id="inputConcactNumber" placeholder="">
+								</div>
+							</div>
 						</div>
+						<div class="col-sm-1"></div>
+						<div class="col-sm-5">
+							<div class="form-group">
+								<label for="inputDateCollect" class="col-sm-5 control-label">Date Collect*:</label>
+								<div class="col-sm-7">
+									<select class="form-control" id="inputDateCollect">
+										<option>hh-mm</option>
+										<option>12-00</option>
+										<option>17-00</option>
+										<option>21-00</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputTimeCollect" class="col-sm-5 control-label">Time Collect:</label>
+								<div class="col-sm-7">
+									<select class="form-control" id="inputTimeCollect">
+										<option>dd-mm-yyyy</option>
+										<option>01-04-2016</option>
+										<option>07-04-2016</option>
+										<option>14-04-2016</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-1"></div>
 					</div>
-
-					<div class="form-group">
+					<div class="form-group margin-bottom-35">
 						<label for="inputVerifyCode" class="col-sm-5 control-label">Verification Code*:</label>
 						<div class="col-sm-2">
 							<input type="text" class="form-control" id="inputVerifyCode" placeholder="">
@@ -197,7 +222,7 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-5 col-sm-7">
-							<button type="submit" class="btn btn-danger btn-sm contact-submmit font-size-20">Submit</button>
+							<button type="submit" class="btn btn-danger btn-sm register-submmit confirm-order">Confirm Order</button>
 						</div>
 					</div>
 				</form>
