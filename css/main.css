@@ -54,7 +54,17 @@ body {
 }
 
 #nav-menu .nav a:hover {
-	background: #ff8d00;
+	background-color: #ff8d00;
+}
+
+#nav-menu .nav a.shadow-first {
+	box-shadow: 
+		inset 0 10px 6px -9px #535352;
+}
+
+#nav-menu .nav a.shadow {
+	box-shadow: 
+		inset 10px 10px 6px -8px #535352;
 }
 
 #nav-menu .nav li.active a {
